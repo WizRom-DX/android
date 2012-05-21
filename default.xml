@@ -278,7 +278,7 @@
   <project path="packages/apps/Protips" name="WizRom-DX/android_packages_apps_Protips" />
   <project path="packages/apps/Provision" name="WizRom-DX/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="WizRom-DX/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/SamsungServiceMode" name="WizRom-DX/android_packages_apps_SamsungServiceMode" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="packages/apps/Settings" name="WizRom-DX/android_packages_apps_Settings" />
   <project path="packages/apps/SoundRecorder" name="WizRom-DX/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/Superuser" name="WizRom-DX/android_packages_apps_Superuser" />
