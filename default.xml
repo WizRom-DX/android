@@ -67,7 +67,7 @@
   <project path="device/malata/smb_a1004" name="CyanogenMod/android_device_malata_smb_a1004" />
   <project path="device/malata/smb_a1011" name="CyanogenMod/android_device_malata_smb_a1011" />
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" />
-  <project path="device/motorola/common" name="WizRom-DX/android_device_motorola_common" />
+  <project path="device/motorola/common" name="wizard0f0s/android_device_motorola_common" />
   <project path="device/motorola/droid2" name="CM7-GB/android_device_motorola_droid2" />
   <project path="device/motorola/droid2we" name="WizRom-DX/android_device_motorola_droid2we" />
   <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
