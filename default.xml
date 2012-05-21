@@ -6,22 +6,21 @@
 
   <remote  name="github"
            fetch="git://github.com/"
-           review="review.cyanogenmod.com" />
 
   <default revision="gingerbread"
            remote="github" />
 
-  <project path="build" name="CyanogenMod/android_build">
+  <project path="build" name="WizRom-DX/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="CyanogenMod/android_bionic" />
-  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
+  <project path="bionic" name="WizRom-DX/android_bionic" />
+  <project path="bootable/bootloader/legacy" name="WizRom-DX/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
-  <project path="development" name="CyanogenMod/android_development" />
+  <project path="bootable/recovery" name="WizRom-DX/android_bootable_recovery" />
+  <project path="dalvik" name="WizRom-DX/android_dalvik" />
+  <project path="development" name="WizRom-DX/android_development" />
   <project path="device/advent/vega" name="CyanogenMod/android_device_advent_vega" />
-  <project path="device/common" name="CyanogenMod/android_device_common" />
+  <project path="device/common" name="WizRom-DX/android_device_common" />
   <project path="device/bn/encore" name="CyanogenMod/android_device_bn_encore" />
   <project path="device/commtiva/z71" name="CyanogenMod/android_device_commtiva_z71" />
   <project path="device/dell/streak7" name="CyanogenMod/android_device_dell_streak7" />
@@ -68,13 +67,13 @@
   <project path="device/malata/smb_a1004" name="CyanogenMod/android_device_malata_smb_a1004" />
   <project path="device/malata/smb_a1011" name="CyanogenMod/android_device_malata_smb_a1011" />
   <project path="device/malata/smb_b9701" name="CyanogenMod/android_device_malata_smb_b9701" />
-  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
+  <project path="device/motorola/common" name="WizRom-DX/android_device_motorola_common" />
   <project path="device/motorola/droid2" name="CM7-GB/android_device_motorola_droid2" />
-  <project path="device/motorola/droid2we" name="CM7-GB/android_device_motorola_droid2we" />
+  <project path="device/motorola/droid2we" name="WizRom-DX/android_device_motorola_droid2we" />
   <project path="device/motorola/jordan" name="CyanogenMod/android_device_motorola_jordan" />
   <project path="device/motorola/morrison" name="CyanogenMod/android_device_motorola_morrison" />
   <project path="device/motorola/motus" name="CyanogenMod/android_device_motorola_motus" />
-  <project path="device/motorola/shadow" name="CM7-GB/android_device_motorola_shadow" />
+  <project path="device/motorola/shadow" name="WizRom-DX/android_device_motorola_shadow" />
   <project path="device/motorola/olympus" name="CyanogenMod/android_device_motorola_olympus" />
   <project path="device/motorola/sholes" name="CyanogenMod/android_device_motorola_sholes" />
   <project path="device/motorola/stingray" name="CyanogenMod/android_device_motorola_stingray" />
@@ -222,108 +221,108 @@
   <project path="external/xmlwriter" name="CyanogenMod/android_external_xmlwriter" />
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" />
-  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
-  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
-  <project path="frameworks/opt/emoji" name="CyanogenMod/android_frameworks_opt_emoji" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
-  <project path="hardware/gpsshim" name="CyanogenMod/android_hardware_gpsshim" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="frameworks/base" name="WizRom-DX/android_frameworks_base" />
+  <project path="frameworks/ex" name="WizRom-DX/android_frameworks_ex" />
+  <project path="frameworks/opt/emoji" name="WizRom-DX/android_frameworks_opt_emoji" />
+  <project path="hardware/broadcom/wlan" name="WizRom-DX/android_hardware_broadcom_wlan" />
+  <project path="hardware/gpsshim" name="WizRom-DX/android_hardware_gpsshim" />
+  <project path="hardware/libhardware" name="WizRom-DX/android_hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="WizRom-DX/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
-  <project path="hardware/alsa_sound" name="CyanogenMod/android_hardware_alsa_sound" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
-  <project path="hardware/ti/omap3-compat" name="CyanogenMod/android_hardware_ti_omap3-compat" />
-  <project path="hardware/ti/omx" name="CyanogenMod/android_hardware_ti_omx" />
-  <project path="hardware/ti/syslink" name="CyanogenMod/android_hardware_ti_syslink" />
+  <project path="hardware/qcom/gps" name="WizRom-DX/android_hardware_qcom_gps" />
+  <project path="hardware/qcom/media" name="WizRom-DX/android_hardware_qcom_media" />
+  <project path="hardware/ril" name="WizRom-DX/android_hardware_ril" />
+  <project path="hardware/alsa_sound" name="WizRom-DX/android_hardware_alsa_sound" />
+  <project path="hardware/ti/omap3" name="WizRom-DX/android_hardware_ti_omap3" />
+  <project path="hardware/ti/omap3-compat" name="WizRom-DX/android_hardware_ti_omap3-compat" />
+  <project path="hardware/ti/omx" name="WizRom-DX/android_hardware_ti_omx" />
+  <project path="hardware/ti/syslink" name="WizRom-DX/android_hardware_ti_syslink" />
   <project path="hardware/ti/tiler" name="CyanogenMod/android_hardware_ti_tiler" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" />
-  <project path="ndk" name="CyanogenMod/android_ndk" />
-  <project path="packages/apps/AccountsAndSyncSettings" name="CyanogenMod/android_packages_apps_AccountsAndSyncSettings" />
+  <project path="hardware/ti/wlan" name="WizRom-DX/android_hardware_ti_wlan" />
+  <project path="hardware/ti/wpan" name="WizRom-DX/android_hardware_ti_wpan" />
+  <project path="libcore" name="WizRom-DX/android_libcore" />
+  <project path="ndk" name="WizRom-DX/android_ndk" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="WizRom-DX/android_packages_apps_AccountsAndSyncSettings" />
   <project path="packages/apps/AicBootFix" name="CyanogenMod/android_packages_apps_AicBootFix" revision="master"/>
-  <project path="packages/apps/ADWLauncher" name="CyanogenMod/android_packages_apps_ADWLauncher" />
-  <project path="packages/apps/AndroidTerm" name="CyanogenMod/android_packages_apps_AndroidTerm" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
-  <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMParts" name="CyanogenMod/android_packages_apps_CMParts" />
-  <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" />
-  <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" />
-  <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
+  <project path="packages/apps/ADWLauncher" name="WizRom-DX/android_packages_apps_ADWLauncher" />
+  <project path="packages/apps/AndroidTerm" name="WizRom-DX/android_packages_apps_AndroidTerm" />
+  <project path="packages/apps/Bluetooth" name="WizRom-DX/android_packages_apps_Bluetooth" />
+  <project path="packages/apps/Browser" name="WizRom-DX/android_packages_apps_Browser" />
+  <project path="packages/apps/Calculator" name="WizRom-DX/android_packages_apps_Calculator" />
+  <project path="packages/apps/Calendar" name="WizRom-DX/android_packages_apps_Calendar" />
+  <project path="packages/apps/Camera" name="WizRom-DX/android_packages_apps_Camera" />
+  <project path="packages/apps/CertInstaller" name="WizRom-DX/android_packages_apps_CertInstaller" />
+  <project path="packages/apps/CMParts" name="WizRom-DX/android_packages_apps_CMParts" />
+  <project path="packages/apps/CMScreenshot" name="WizRom-DX/android_packages_apps_CMScreenshot" />
+  <project path="packages/apps/CMStats" name="WizRom-DX/android_packages_apps_CMStats" />
+  <project path="packages/apps/CMUpdateNotify" name="WizRom-DX/android_packages_apps_CMUpdateNotify" />
+  <project path="packages/apps/CMWallpapers" name="WizRom-DX/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" />
-  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
-  <project path="packages/apps/FileManager" name="CyanogenMod/android_packages_apps_FileManager" />
-  <project path="packages/apps/FM" name="CyanogenMod/android_packages_apps_FM" />
-  <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
-  <project path="packages/apps/Gallery3D" name="CyanogenMod/android_packages_apps_Gallery3D" />
-  <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" />
-  <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="CyanogenMod/android_packages_apps_Launcher2" />
-  <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" />
-  <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
-  <project path="packages/apps/Pacman" name="CyanogenMod/android_packages_apps_Pacman" />
-  <project path="packages/apps/Phone" name="CyanogenMod/android_packages_apps_Phone" />
-  <project path="packages/apps/Protips" name="CyanogenMod/android_packages_apps_Protips" />
-  <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" />
-  <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" />
-  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
-  <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" />
-  <project path="packages/apps/Usb" name="CyanogenMod/android_packages_apps_Usb" />
-  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
-  <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
-  <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
-  <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
-  <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
-  <project path="packages/providers/GoogleContactsProvider" name="CyanogenMod/android_packages_providers_GoogleContactsProvider" />
-  <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
-  <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
-  <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
-  <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
-  <project path="packages/wallpapers/MagicSmoke" name="CyanogenMod/android_packages_wallpapers_MagicSmoke" />
-  <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
-  <project path="sdk" name="CyanogenMod/android_sdk" revision="tools_r7" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="Hashcode/android_system_core" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" />
-  <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
+  <project path="packages/apps/Contacts" name="WizRom-DX/android_packages_apps_Contacts" />
+  <project path="packages/apps/DeskClock" name="WizRom-DX/android_packages_apps_DeskClock" />
+  <project path="packages/apps/DSPManager" name="WizRom-DX/android_packages_apps_DSPManager" />
+  <project path="packages/apps/Email" name="WizRom-DX/android_packages_apps_Email" />
+  <project path="packages/apps/FileManager" name="WizRom-DX/android_packages_apps_FileManager" />
+  <project path="packages/apps/FM" name="WizRom-DX/android_packages_apps_FM" />
+  <project path="packages/apps/Gallery" name="WizRom-DX/android_packages_apps_Gallery" />
+  <project path="packages/apps/Gallery3D" name="WizRom-DX/android_packages_apps_Gallery3D" />
+  <project path="packages/apps/GanOptimizer" name="WizRom-DX/android_packages_apps_GanOptimizer" />
+  <project path="packages/apps/HTMLViewer" name="WizRom-DX/android_packages_apps_HTMLViewer" />
+  <project path="packages/apps/Launcher2" name="WizRom-DX/android_packages_apps_Launcher2" />
+  <project path="packages/apps/Mms" name="WizRom-DX/android_packages_apps_Mms" />
+  <project path="packages/apps/Music" name="WizRom-DX/android_packages_apps_Music" />
+  <project path="packages/apps/Nfc" name="WizRom-DX/android_packages_apps_Nfc" />
+  <project path="packages/apps/PackageInstaller" name="WizRom-DX/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/Pacman" name="WizRom-DX/android_packages_apps_Pacman" />
+  <project path="packages/apps/Phone" name="WizRom-DX/android_packages_apps_Phone" />
+  <project path="packages/apps/Protips" name="WizRom-DX/android_packages_apps_Protips" />
+  <project path="packages/apps/Provision" name="WizRom-DX/android_packages_apps_Provision" />
+  <project path="packages/apps/QuickSearchBox" name="WizRom-DX/android_packages_apps_QuickSearchBox" />
+  <project path="packages/apps/SamsungServiceMode" name="WizRom-DX/android_packages_apps_SamsungServiceMode" />
+  <project path="packages/apps/Settings" name="WizRom-DX/android_packages_apps_Settings" />
+  <project path="packages/apps/SoundRecorder" name="WizRom-DX/android_packages_apps_SoundRecorder" />
+  <project path="packages/apps/Superuser" name="WizRom-DX/android_packages_apps_Superuser" />
+  <project path="packages/apps/Stk" name="WizRom-DX/android_packages_apps_Stk" />
+  <project path="packages/apps/Tag" name="WizRom-DX/android_packages_apps_Tag" />
+  <project path="packages/apps/Torch" name="WizRom-DX/android_packages_apps_Torch" />
+  <project path="packages/apps/Usb" name="WizRom-DX/android_packages_apps_Usb" />
+  <project path="packages/apps/VoiceDialer" name="WizRom-DX/android_packages_apps_VoiceDialer" />
+  <project path="packages/experimental" name="WizRom-DX/android_packages_experimental" />
+  <project path="packages/inputmethods/LatinIME" name="WizRom-DX/android_packages_inputmethods_LatinIME" />
+  <project path="packages/providers/ApplicationsProvider" name="WizRom-DX/android_packages_providers_ApplicationsProvider" />
+  <project path="packages/providers/CalendarProvider" name="WizRom-DX/android_packages_providers_CalendarProvider" />
+  <project path="packages/providers/ContactsProvider" name="WizRom-DX/android_packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="WizRom-DX/android_packages_providers_DownloadProvider" />
+  <project path="packages/providers/DrmProvider" name="WizRom-DX/android_packages_providers_DrmProvider" />
+  <project path="packages/providers/GoogleContactsProvider" name="WizRom-DX/android_packages_providers_GoogleContactsProvider" />
+  <project path="packages/providers/MediaProvider" name="WizRom-DX/android_packages_providers_MediaProvider" />
+  <project path="packages/providers/TelephonyProvider" name="WizRom-DX/android_packages_providers_TelephonyProvider" />
+  <project path="packages/providers/UserDictionaryProvider" name="WizRom-DX/android_packages_providers_UserDictionaryProvider" />
+  <project path="packages/wallpapers/Basic" name="WizRom-DX/android_packages_wallpapers_Basic" />
+  <project path="packages/wallpapers/LivePicker" name="WizRom-DX/android_packages_wallpapers_LivePicker" />
+  <project path="packages/wallpapers/MagicSmoke" name="WizRom-DX/android_packages_wallpapers_MagicSmoke" />
+  <project path="packages/wallpapers/MusicVisualization" name="WizRom-DX/android_packages_wallpapers_MusicVisualization" />
+  <project path="prebuilt" name="WizRom-DX/android_prebuilt" />
+  <project path="sdk" name="WizRom-DX/android_sdk" revision="tools_r7" />
+  <project path="system/bluetooth" name="WizRom-DX/android_system_bluetooth" />
+  <project path="system/core" name="WizRom-DX/android_system_core" />
+  <project path="system/extras" name="WizRom-DX/android_system_extras" />
+  <project path="system/media" name="WizRom-DX/android_system_media" />
+  <project path="system/netd" name="WizRom-DX/android_system_netd" />
+  <project path="system/su" name="WizRom-DX/android_system_su" />
+  <project path="system/vold" name="WizRom-DX/android_system_vold" />
+  <project path="system/wlan/ti" name="WizRom-DX/android_system_wlan_ti" />
 
-  <project path="vendor/motorola" name="CM7-GB/proprietary_vendor_motorola" />
+  <project path="vendor/motorola" name="WizRom-DX/proprietary_vendor_motorola" />
   <project path="vendor/cyanogen" name="CM7-GB/android_vendor_cyanogen" />
-  <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/themes/Androidian" name="CyanogenMod/android_vendor_tmobile_themes_Androidian" />
-  <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
-  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="vendor/qcom/opensource/webkit" name="WizRom-DX/android_vendor_qcom_opensource_webkit" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="WizRom-DX/themes-platform-vendor-tmobile-apps-ThemeChooser" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="WizRom-DX/android_vendor_tmobile_libs_com.tmobile.themes" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="WizRom-DX/android_vendor_tmobile_providers_ThemeManager" />
+  <project path="vendor/tmobile/themes/Androidian" name="WizRom-DX/android_vendor_tmobile_themes_Androidian" />
+  <project path="vendor/tmobile/themes/Cyanbread" name="WizRom-DX/android_vendor_tmobile_themes_Cyanbread" />
+  <project path="vendor/tmobile/products/themes" name="WizRom-DX/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="WizRom-DX/android" />
 
 </manifest>
